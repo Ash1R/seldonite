@@ -16,6 +16,7 @@ class Analyze(base.BaseStage):
         self._do_articles_over_time = False
         self._do_article_domains = False
         self._do_publish_dates = False
+        print("goofy ass stage")
 
     def _process(self, spark_manager):
         df = self.input._process(spark_manager)

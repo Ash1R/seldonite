@@ -5,7 +5,7 @@ channels:
   - pytorch
   - johnsnowlabs
 dependencies:
-  - python=3.7
+  - python=3.7.12
   - conda-build
   - conda-pack==0.3.1
   - newspaper3k
@@ -28,11 +28,11 @@ dependencies:
   - pytest
   - pip
   - pip:
-    - -e .
-    - warcio==1.7.4
-    - ray
-    - pyzmq
-    - tensorflow>=2.1.0
-    - bigdl-spark3
-    - flashgeotext
-    - langdetect
+      - -e .
+      - warcio==1.7.4
+      - ray
+      - pyzmq
+      - tensorflow>=2.1.0
+      - bigdl-spark3
+      - flashgeotext
+      - langdetect

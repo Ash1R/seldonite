@@ -6,6 +6,8 @@ import nltk
 import pyspark.sql as psql
 import pyspark.sql.functions as sfuncs
 import pyspark.ml as sparkml
+#sparknlp = __import__("spark-nlp")
+
 import sparknlp
 
 from seldonite import base, collect

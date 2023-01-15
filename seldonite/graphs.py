@@ -1,6 +1,8 @@
 import networkx as nx
 import pyspark.sql.functions as sfuncs
 import pyspark.sql as psql
+#sparknlp = __import__("spark-nlp")
+
 from sparknlp.pretrained import PretrainedPipeline
 
 from seldonite import base

@@ -11,6 +11,8 @@ import nltk
 import pyspark.sql as psql
 import requests
 import pyspark.ml as sparkml
+#sparknlp = __import__("spark-nlp")
+
 import sparknlp
 
 

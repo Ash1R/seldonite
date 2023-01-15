@@ -2,6 +2,9 @@ from email import header
 import pyspark.sql.functions as sfuncs
 import pyspark.sql as psql
 import pyspark.ml as pml
+
+#sparknlp = __import__("spark-nlp")
+
 from sparknlp.pretrained import PretrainedPipeline
 
 from seldonite import base, graphs
